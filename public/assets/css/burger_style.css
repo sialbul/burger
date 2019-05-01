@@ -1,7 +1,23 @@
+.jumbotron{ 
+  background-image: url("/assets/img/burger.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.container {color:white;}
+
+
+
+.panel-body{
+  background-color: black;
+}
 li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
+    display:inline;
+
   }
   
   .label {
@@ -18,4 +34,17 @@ li {
     margin-bottom: 5px;
   }
   
-  
+  #lefthead {
+    background-color: #5cb85c;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#righthead {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+#newburger {color: black;}
