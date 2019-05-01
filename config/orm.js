@@ -91,7 +91,7 @@ var orm = {
       cb(result);
     });
   },
-
+/*
   editOne: function (table, objColVals, vals, cb) {
     var queryString = "UPDATE " + table;
 
@@ -108,7 +108,7 @@ var orm = {
       cb(result);
     });
 
-  },
+  },*/
 
   // Delete a burger from the db.
   deleteOne: function (table, condition, cb) {

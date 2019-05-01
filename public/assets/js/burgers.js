@@ -60,7 +60,7 @@ $(function () {
 })
 
 
-/*
+
 $(document).ready(function() {
   $(document).on("click", ".editOne", editBurger);
   $(document).on("click", "button.complete", toggleComplete);
@@ -69,14 +69,16 @@ $(document).ready(function() {
 
   // This function handles showing the input box for a user to edit a todo
   function editBurger() {
+    debugger;
         var currentBurger = $(this).data("burger_name");
         console.log($(this).data("devoured"));
-/*
-    $(this).children("this.burgers").hide();
+    debugger;
+    $(this).children("").hide();
+    debugger;
     $(this).children("input.edit").val(currentBurger.data);
     $(this).children("input.edit").show();
     $(this).children("input.edit").focus();
-    
+    debugger;
   }
 
   // Toggles complete status
@@ -102,7 +104,7 @@ $(document).ready(function() {
   function updateBurger(burgers) {
     $.ajax({
       method: "PUT",
-      url: "/api/burgers",
+      url: "/api/burgers/:id",
       data: burgers
     }).then(getBurger);
   }
@@ -119,4 +121,4 @@ $(document).ready(function() {
     }
   }
 })
-*/
+
