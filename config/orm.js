@@ -91,24 +91,7 @@ var orm = {
       cb(result);
     });
   },
-/*
-  editOne: function (table, objColVals, vals, cb) {
-    var queryString = "UPDATE " + table;
 
-    queryString += " SET ";
-    queryString += objColVals;
-    queryString += " WHERE";
-    queryString += vals;
-
-    console.log(queryString);
-    connection.query(queryString, function (err, result) {
-      if (err) {
-        throw err;
-      }
-      cb(result);
-    });
-
-  },*/
 
   // Delete a burger from the db.
   deleteOne: function (table, condition, cb) {
