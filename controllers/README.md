@@ -5,9 +5,19 @@
 * Each burger in the waiting area also has a Cutlery! button. When the user clicks it, the burger will move to the right side of the page.
 * The app store every burger in a database, whether devoured or not.
 
-
-I created the app with MySQL, Node, Express, Handlebars and ORM. 
-
 ## Demo
-*Eat the Burger* is deployed to Heroku. Please check it out [here.](https://boiling-lake-37451.herokuapp.com/)
+*Eat the Burger* is deployed to Heroku. Please check it out [here.](https://peaceful-beyond-77283.herokuapp.com/)
 
+## Technologies Used
+
+* JavaScript
+* jQuery
+* Node.js
+* Express.js
+* HTML
+* Bootstrap
+* MySQl
+* Handlebars
+* ORM
+
+Created by Sibel Baslamisli [https://github.com/sialbul](https://github.com/sialbul)

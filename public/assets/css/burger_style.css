@@ -4,10 +4,9 @@
     background-position: center;
     background-size: cover;
     text-align: center;
+    background-color: rgba(128, 128, 128, 0.315);
 }
 .container {color:white;}
-
-
 
 .panel-body{
   background-color: black;
